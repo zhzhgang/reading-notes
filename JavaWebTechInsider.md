@@ -38,4 +38,8 @@ Servlet 会被包装成 Context 容器中的 StandardWrapper。为什么要将 S
 
 初始化 Servlet 在 StandardWrapper 的initServlet 中，这个方法调用 Servlet 的 init() 方法，同时把包装了 StandardWrapper 对象的StandardWrapperFacade 作为 ServletConfig 传给 Servlet
 
+## 9.3 Servlet 体系结构
+
+
+
  
